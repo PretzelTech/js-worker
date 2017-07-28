@@ -6,6 +6,5 @@
   },
   "runners": {
     "default":  5
-  },
-  "script": "./scripts/runHelper.js"
+  }
 }
