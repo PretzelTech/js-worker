@@ -7,5 +7,5 @@
   "runners": {
     "default":  5
   },
-  "script": "./scripts/runnable.js"
+  "script": "./scripts/runHelper.js"
 }
