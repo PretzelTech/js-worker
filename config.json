@@ -1,0 +1,11 @@
+{
+  "redis": {
+    "server": "localhost",
+    "port": 6379,
+    "db": 0
+  },
+  "runners": {
+    "default":  5
+  },
+  "script": "./scripts/runnable.js"
+}
