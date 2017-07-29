@@ -1,6 +1,6 @@
 class TwitchStreamTracker {
-  static perform() {
-    console.log('yo this is TwitchStreamTracker');
+  static perform(arg1, arg2, arg3) {
+    console.log(`Running TwitchStreamTracker with ${arg1}, ${arg2} and ${arg3}`);
   }
 }
 
