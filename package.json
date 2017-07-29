@@ -1,11 +1,13 @@
 {
   "name": "js-worker",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "./lib/runner.js",
+  "description": "Node / JS Worker for Resque",
   "repository": "https://github.com/PretzelTech/js-worker.git",
   "author": "Pretzel Tech",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "redis": "^2.7.1"
   },
   "bin": {
