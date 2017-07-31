@@ -6,14 +6,18 @@
   "repository": "https://github.com/PretzelTech/js-worker.git",
   "author": "Pretzel Tech",
   "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "js-worker": "./bin/js-worker.js"
+  },
   "dependencies": {
     "dotenv": "^4.0.0",
     "redis": "^2.7.1"
   },
-  "bin": {
-    "js-worker": "./bin/js-worker.js"
-  },
-  "optionalDependencies": {
-    "hiredis": "^0.5.0"
+  "devDependencies": {
+    "jest": "^20.0.4"
   }
 }
